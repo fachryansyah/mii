@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "pkm",
+      name: "mii",
       script: "serve dist -n -p 6000", // Path to the compiled main.js file
       instances: 1, // Number of instances to run
       autorestart: true, // Automatically restart the app if it crashes
